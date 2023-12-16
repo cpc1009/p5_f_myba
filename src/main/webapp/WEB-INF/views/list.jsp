@@ -50,6 +50,11 @@
 </head>
 <body>
 <div class="container">
+
+    <div style="position: absolute; top: 10px; right: 10px;">
+        <a href="${path}/login/logout" class="btn btn-warning">Logout</a>
+    </div>
+
     <h1 class="mt-4 mb-4">도서목록</h1>
     <table id="list" class="table table-bordered table-hover">
         <thead class="thead-dark">
@@ -82,7 +87,7 @@
         </tbody>
     </table>
     <br/>
-    <a href="add" class="btn btn-primary">Add New Post</a>
+    <a href="add" class="btn btn-primary">도서 추가</a>
 </div>
 </body>
 </html>

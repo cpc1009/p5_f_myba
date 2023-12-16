@@ -8,7 +8,9 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home() {
-        return "redirect:/board/list";
+        return "list";
+
+//        return "redirect:/board/list";
     }
 
 }
